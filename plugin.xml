@@ -62,9 +62,9 @@
 
   <platform name="ios">
     <config-file target="config.xml" parent="/widget">
-      <preference name="partner" value="$PARTNER_ID" />
-      <preference name="seller" value="$SELLER_ACCOUNT" />
-      <preference name="privatekey" value="$PRIVATE_KEY" />
+      <preference name="partner" value="[no require]" />
+      <preference name="seller" value="[no require]" />
+      <preference name="privatekey" value="[no require]" />
       <feature name="AliPay">
         <param name="ios-package" value="AlipayPlugin" />
         <param name="onload" value="true" />
