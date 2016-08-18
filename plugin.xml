@@ -22,9 +22,7 @@
 
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
-      <preference name="partner" value="" />
-      <preference name="seller" value="" />
-      <preference name="privatekey" value="" />
+     
       <feature name="AliPay">
         <param name="android-package" value="wang.imchao.plugin.alipay.AliPayPlugin"/>
         <param name="onload" value="true" />
