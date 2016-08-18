@@ -14,11 +14,6 @@
   <engines>
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
-
-  <preference name="PARTNER_ID"/>
-  <preference name="SELLER_ACCOUNT"/>
-  <preference name="PRIVATE_KEY"/>
-
   <asset src="www/alipay.js" target="js/alipay.js"/>
 
   <js-module src="www/alipay.js" name="alipay">
@@ -27,9 +22,9 @@
 
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
-      <preference name="partner" value="$PARTNER_ID" />
-      <preference name="seller" value="$SELLER_ACCOUNT" />
-      <preference name="privatekey" value="$PRIVATE_KEY" />
+      <preference name="partner" value="" />
+      <preference name="seller" value="" />
+      <preference name="privatekey" value="" />
       <feature name="AliPay">
         <param name="android-package" value="wang.imchao.plugin.alipay.AliPayPlugin"/>
         <param name="onload" value="true" />
